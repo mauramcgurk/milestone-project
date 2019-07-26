@@ -1,0 +1,90 @@
+/*****BASE STYLES*****/
+
+/***** #b80c09 red
+#0b4f6c -unsaturated cyan
+#75aec6 light blue
+#fbfbff white
+#040f16 black
+*****/
+
+body {
+  background-color: #fbfbff /*****white*****/;
+  margin:auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 1400px;
+}
+
+/*****GRID*****/
+.full-width {
+  width: 1400px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.half-width {
+  float:right;
+  width: 700px;
+}
+
+/*****HEADER*****/
+header {
+  height: 50px;
+  margin-bottom: 0px;
+}
+
+h1, h2, h3 {
+  color: #040f16;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+
+}
+
+header a {
+  text-align: right;
+  text-decoration: none;
+}
+
+nav {
+  padding-top: 10px;
+  padding-right: 45px;
+}
+
+/*****INTRO*****/
+
+/*****BODY*****/
+#hero {
+  height: 800px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+span {
+  font-size: 100px;
+}
+
+h2 {
+  color: #040f16;
+  font-size: 36px;
+  text-align: center;
+}
+
+h4, p, header {
+  font-family: 'Roboto', sans-serif;
+}
+
+.red {
+  color: #b80c09;
+}
+
+#portfolio {
+  height: 2550px;
+}
+
+.portfolio boxes {
+  height: 300px;
+}
