@@ -109,3 +109,8 @@ h4, p, header {
   height: 300px;
   width: 1200px;
 }
+
+#culture-shocks {
+  background-color: #b80c09;
+  /*****make whole box a link - possible?*****/
+}
