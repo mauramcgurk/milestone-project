@@ -27,6 +27,22 @@ body {
   width: 700px;
 }
 
+/*****short-width div which is just for inside portfolio boxes? fits in 1300 to float text and images?*****/
+
+.short-width-left {
+  width: 600px;
+  float:left;
+  margin-right: 10px;
+  /*****padding-left:100px;*****/
+  clear: both;
+}
+
+.short-width-right {
+  width: 600px;
+  float:right;
+  margin-left: 10px;
+  /*****padding-right:100px;*****/
+}
 
 /*****HEADER*****/
 header {
@@ -105,34 +121,35 @@ h4, p, header {
   height: 2950px;
 }
 
-.portfolio-boxes {
+.portfolio-boxes-wrapper {
   height: 400px;
   margin: 50px 50px 50px 50px;
+  /*****overflow: auto;*****/
   width: 1300px;
 }
 
-#portfolio img {
-  float:right;
-  height: 300px;
-  width: 300px;
-}
 
-#portfolio h4, p {
-  padding-left: 100px;
-  width: 500px;
-}
-
-#portfolio h4 {
-  padding-bottom: 5px;
-  padding-top: 100px;
+#portfolio h3 {
+  margin: 20px 0 0 0;
+  padding: 90px 0 5px 170px;
 }
 
 #portfolio p {
-  padding-bottom: 50px;
+  /*****padding-bottom: 50px;*****/
+  padding-left: 170px;
+}
 
+#portfolio img {
+  /*****float:right;*****/
+  width:300px;
+  height:300px;
+  margin: 25px 0 25px 0;
+  padding-left: 50px;
 }
 
 #culture-shocks {
-  background-color: #b80c09;
+  background-color: #040f16;
   /*****make whole box a link - possible?*****/
+  overflow:auto;
+  color: #fbfbff;
 }
