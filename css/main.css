@@ -102,12 +102,34 @@ h4, p, header {
 }
 
 #portfolio {
-  height: 2550px;
+  height: 2950px;
 }
 
 .portfolio-boxes {
+  height: 400px;
+  margin: 50px 50px 50px 50px;
+  width: 1300px;
+}
+
+#portfolio img {
+  float:right;
   height: 300px;
-  width: 1200px;
+  width: 300px;
+}
+
+#portfolio h4, p {
+  padding-left: 100px;
+  width: 500px;
+}
+
+#portfolio h4 {
+  padding-bottom: 5px;
+  padding-top: 100px;
+}
+
+#portfolio p {
+  padding-bottom: 50px;
+
 }
 
 #culture-shocks {
