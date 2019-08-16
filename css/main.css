@@ -33,7 +33,6 @@ body {
   width: 600px;
   float:left;
   margin-right: 10px;
-  /*****padding-left:100px;*****/
   clear: both;
 }
 
@@ -41,7 +40,6 @@ body {
   width: 600px;
   float:right;
   margin-left: 10px;
-  /*****padding-right:100px;*****/
 }
 
 /*****HEADER*****/
@@ -124,7 +122,6 @@ h4, p, header {
 .portfolio-boxes-wrapper {
   height: 400px;
   margin: 50px 50px 50px 50px;
-  /*****overflow: auto;*****/
   width: 1300px;
 }
 
@@ -135,12 +132,10 @@ h4, p, header {
 }
 
 #portfolio p {
-  /*****padding-bottom: 50px;*****/
   padding-left: 170px;
 }
 
 #portfolio img {
-  /*****float:right;*****/
   width:300px;
   height:300px;
   margin: 25px 0 25px 0;
@@ -149,7 +144,12 @@ h4, p, header {
 
 #culture-shocks {
   background-color: #040f16;
-  /*****make whole box a link - possible?*****/
-  overflow:auto;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+#newbies {
+  background-color: #b80c09;
+  overflow: auto;
   color: #fbfbff;
 }
