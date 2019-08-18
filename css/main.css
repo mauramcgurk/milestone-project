@@ -1,3 +1,5 @@
+/*****MILESTONE WEBSITE PROJECT*****/
+
 /*****BASE STYLES*****/
 
 /***** #b80c09 red
@@ -27,8 +29,6 @@ body {
   width: 700px;
 }
 
-/*****short-width div which is just for inside portfolio boxes? fits in 1300 to float text and images?*****/
-
 .short-width-left {
   width: 600px;
   float:left;
@@ -54,6 +54,7 @@ h2 {
 }
 
 header h2 {
+  font-size: 30px;
   padding-left: 0px;
   padding-right: 150px;
   margin-bottom: 15px;
@@ -89,6 +90,7 @@ nav {
 
 #hero h1 {
   color: #040f16;
+  /*****font-family: 'Raleway', sans-serif;*****/
   font-size: 110px;
   width: 850px;
   clear: both;
@@ -107,7 +109,7 @@ h2 {
   text-align: center;
 }
 
-h4, p, header {
+h3, p, header {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -116,15 +118,14 @@ h4, p, header {
 }
 
 #portfolio {
-  height: 2950px;
+  height: 2550px;
 }
 
 .portfolio-boxes-wrapper {
   height: 400px;
-  margin: 50px 50px 50px 50px;
+  margin: 25px 50px 25px 50px;
   width: 1300px;
 }
-
 
 #portfolio h3 {
   margin: 20px 0 0 0;
@@ -152,4 +153,65 @@ h4, p, header {
   background-color: #b80c09;
   overflow: auto;
   color: #fbfbff;
+}
+
+#split-page {
+  background-color: #0b4f6c;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+#rogue-pickings {
+  background-color: #75aec6;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+#jubilee-austen {
+  background-color: #b80c09;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+#holstee-manifesto {
+  background-color: #040f16;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+/*****ABOUT*****/
+#about p {
+  padding-left: 200px;
+  width: 450px;
+}
+
+#about img {
+  border-radius: 50%;
+  padding-left: 100px;
+  padding-right: 70px;
+  width: 270px;
+}
+
+/*****CONNECT*****/
+#connect p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#connect ul li {
+  display: inline-block;
+  margin: 0 200px 0 200px;
+}
+
+#connect ul {
+  /*****list-style: none;*****/
+}
+
+#connect ul li a {
+  color: #040f16;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
 }
