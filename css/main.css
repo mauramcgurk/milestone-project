@@ -180,16 +180,24 @@ h3, p, header {
 }
 
 /*****ABOUT*****/
+#about {
+  height: 450px;
+}
+
 #about p {
-  padding-left: 200px;
-  width: 450px;
+  /*****margin-right: 70px;*****/
+  padding-left: 180px;
+  padding-top: 60px;
+  text-align: justify;
+  width: 550px;
 }
 
 #about img {
   border-radius: 50%;
-  padding-left: 100px;
-  padding-right: 70px;
-  width: 270px;
+  margin-left: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 360px;
 }
 
 /*****CONNECT*****/
