@@ -143,33 +143,13 @@ h3, p, header {
   padding-left: 50px;
 }
 
-#culture-shocks {
-  /*****background-color: #040f16;*****/
-  background-color: #0b4f6c;
-  overflow: auto;
-  color: #fbfbff;
-}
-
-#newbies {
-  background-color: #b80c09;
-  overflow: auto;
-  color: #fbfbff;
-}
-
-#split-page {
-  /*****background-color: #0b4f6c;*****/
-  background-color: #75aec6;
-  overflow: auto;
-  color: #fbfbff;
-}
-
 #collaborative-divorce {
   background-color: #0b4f6c;
   overflow: auto;
   color: #fbfbff;
 }
 
-#jubilee-austen {
+#culture-shocks {
   background-color: #b80c09;
   overflow: auto;
   color: #fbfbff;
@@ -180,6 +160,25 @@ h3, p, header {
   overflow: auto;
   color: #fbfbff;
 }
+
+#newbies {
+  background-color: #0b4f6c;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+#split-page {
+  background-color: #b80c09;
+  overflow: auto;
+  color: #fbfbff;
+}
+
+#designer-loves-to-code {
+  background-color: #75aec6;
+  overflow: auto;
+  color: #fbfbff;
+}
+
 
 /*****ABOUT*****/
 #about {
@@ -203,6 +202,11 @@ h3, p, header {
 }
 
 /*****CONNECT*****/
+
+#connect {
+  height: 270px;
+}
+
 #connect p {
   font-size: 18px;
   font-weight: bold;
@@ -212,16 +216,31 @@ h3, p, header {
 
 #connect ul li {
   display: inline-block;
-  margin: 0 200px 0 200px;
+  margin: 0 50px 0 50px;
 }
 
 #connect ul {
-  /*****list-style: none;*****/
+  padding: 0 475px 0 475px;
+  width: 500px;
 }
 
-#connect ul li a {
+#connect a {
   color: #040f16;
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
   text-decoration: none;
+}
+
+
+/***** FOOTER *****/
+#footer {
+  border-top: 3px solid #b80c09;
+  height: 60px;
+}
+
+#footer p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
