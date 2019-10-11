@@ -144,7 +144,8 @@ h3, p, header {
 }
 
 #culture-shocks {
-  background-color: #040f16;
+  /*****background-color: #040f16;*****/
+  background-color: #0b4f6c;
   overflow: auto;
   color: #fbfbff;
 }
@@ -156,13 +157,14 @@ h3, p, header {
 }
 
 #split-page {
-  background-color: #0b4f6c;
+  /*****background-color: #0b4f6c;*****/
+  background-color: #75aec6;
   overflow: auto;
   color: #fbfbff;
 }
 
-#rogue-pickings {
-  background-color: #75aec6;
+#collaborative-divorce {
+  background-color: #0b4f6c;
   overflow: auto;
   color: #fbfbff;
 }
@@ -174,7 +176,7 @@ h3, p, header {
 }
 
 #thinkspace {
-  background-color: #0b4f6c;
+  background-color: #75aec6;
   overflow: auto;
   color: #fbfbff;
 }
