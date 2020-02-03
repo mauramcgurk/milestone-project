@@ -90,6 +90,7 @@ nav {
 
 #hero h1 {
   color: #040f16;
+  /*****color: #fbfbff;*****/
   /*****font-family: 'Raleway', sans-serif;*****/
   font-size: 110px;
   width: 850px;
@@ -113,9 +114,9 @@ h3, p, header {
   font-family: 'Roboto', sans-serif;
 }
 
-.span-color {
+/*****.span-color {
   color: #fbfbff;
-}
+}*****/
 
 #portfolio {
   height: 2550px;
