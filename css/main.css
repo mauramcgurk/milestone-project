@@ -245,3 +245,116 @@ h3, p, header {
   font-weight: bold;
   text-align: center;
 }
+
+
+/***** ADDITIONAL PAGES *****/
+
+/***** COLLABORATIVE DIVORCE TACOMA PORTFOLIO PAGE *****/
+
+#case-study-info {
+  padding: 0px 100px;
+}
+
+#case-study-info h1 {
+  font-size: 50px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+#case-study-info img {
+  margin: 20px 0px;
+  width: 1200px;
+}
+
+#case-study-info h2 {
+  font-size: 28px;
+  text-align: left;
+}
+
+#case-study-info p {
+  font-size: 18px;
+  margin: 8px 0px;
+  padding: 5px;
+  text-align: justify;
+}
+
+#bottom-navigation {
+  height: 150px;
+}
+
+#bottom-navigation nav ul li {
+  display: inline-block;
+  margin-left: 55px;
+  margin-top: 25px;
+}
+
+#bottom-navigation nav ul li a {
+  color: #040f16;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#bottom-navigation nav {
+  float: left;
+}
+
+
+/***** CULTURE SHOCKS PORTFOLIO PAGE *****/
+
+/***** THINKSPACE PORTFOLIO PAGE *****/
+
+/***** ADVICE FOR NEWBIES PORTFOLIO PAGE *****/
+
+/***** ART & DESIGN PORTFOLIO PAGE *****/
+
+
+/***** WEB DESIGN PORTFOLIO PAGE *****/
+
+#case-study-info {
+  padding: 0px 100px;
+}
+
+#case-study-info h1 {
+  font-size: 50px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+#case-study-info img {
+  margin: 20px 0px;
+  width: 1200px;
+}
+
+#case-study-info h2 {
+  font-size: 28px;
+  text-align: left;
+}
+
+#case-study-info p {
+  font-size: 18px;
+  margin: 8px 0px;
+  padding: 5px;
+  text-align: justify;
+}
+
+#bottom-navigation {
+  height: 150px;
+}
+
+#bottom-navigation nav ul li {
+  display: inline-block;
+  margin-left: 55px;
+  margin-top: 25px;
+}
+
+#bottom-navigation nav ul li a {
+  color: #040f16;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#bottom-navigation nav {
+  float: left;
+}
