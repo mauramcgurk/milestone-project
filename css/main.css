@@ -123,7 +123,7 @@ h3, p, header {
 
 .portfolio-boxes-wrapper {
   height: 400px;
-  margin: 25px 50px 25px 50px;
+  margin: 25px 50px;
   width: 1300px;
 }
 
@@ -139,7 +139,7 @@ h3, p, header {
 #portfolio img {
   width:300px;
   height:300px;
-  margin: 25px 0 25px 0;
+  margin: 25px 0;
   padding-left: 50px;
 }
 
@@ -216,11 +216,11 @@ h3, p, header {
 
 #connect ul li {
   display: inline-block;
-  margin: 0 50px 0 50px;
+  margin: 0 50px;
 }
 
 #connect ul {
-  padding: 0 475px 0 475px;
+  padding: 0 475px;
   width: 500px;
 }
 
