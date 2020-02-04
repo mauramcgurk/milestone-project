@@ -271,11 +271,15 @@ h3, p, header {
   text-align: left;
 }
 
-#case-study-info p {
+#case-study-info p, li {
   font-size: 18px;
   margin: 8px 0px;
   padding: 5px;
   text-align: justify;
+}
+
+#case-study-info ul {
+  padding: 0px 40px;
 }
 
 #bottom-navigation {
@@ -290,7 +294,7 @@ h3, p, header {
 
 #bottom-navigation nav ul li a {
   color: #040f16;
-  font-size: 22px;
+  font-size: 36px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -336,7 +340,7 @@ h3, p, header {
   margin: 8px 0px;
   padding: 5px;
   text-align: justify;
-}
+} /***** THIS ONE IS DIFFERENT - CHECK AND COMPARE *****/
 
 #bottom-navigation {
   height: 150px;
@@ -350,7 +354,7 @@ h3, p, header {
 
 #bottom-navigation nav ul li a {
   color: #040f16;
-  font-size: 22px;
+  font-size: 36px;
   font-weight: bold;
   text-decoration: none;
 }
