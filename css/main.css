@@ -237,6 +237,7 @@ h3, p, header {
 /***** FOOTER *****/
 #footer {
   border-top: 3px solid #b80c09;
+  clear: both;
   height: 60px;
 }
 
@@ -249,7 +250,7 @@ h3, p, header {
 
 /***** ADDITIONAL PAGES *****/
 
-/***** COLLABORATIVE DIVORCE TACOMA PORTFOLIO PAGE *****/
+/***** TEMPLATE FOR ALL ADDITIONAL PAGES *****/
 
 #case-study-info {
   padding: 0px 100px;
@@ -282,29 +283,43 @@ h3, p, header {
   padding: 0px 40px;
 }
 
-#bottom-navigation {
+#bottom-navigation-left, #bottom-navigation-right {
   height: 150px;
 }
 
-#bottom-navigation nav ul li {
+#bottom-navigation-left nav ul li, #bottom-navigation-right nav ul li {
   display: inline-block;
-  margin-left: 55px;
-  margin-top: 25px;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
-#bottom-navigation nav ul li a {
+#bottom-navigation-left nav ul li {
+  margin-left: 55px;
+}
+
+#bottom-navigation-right nav ul li {
+  margin-right: 100px;
+}
+
+#bottom-navigation-left nav ul li a, #bottom-navigation-right nav ul li a {
   color: #040f16;
   font-size: 36px;
   font-weight: bold;
   text-decoration: none;
 }
 
-#bottom-navigation nav {
+#bottom-navigation-left nav {
   float: left;
 }
 
+#bottom-navigation-right nav {
+  float: right;
+}
 
-/***** CULTURE SHOCKS PORTFOLIO PAGE *****/
+
+/*****COLLABORATIVE DIVORCE TACOMA PORTFOLIO PAGE : no additional CSS *****/
+
+/***** CULTURE SHOCKS PORTFOLIO PAGE : no additional CSS *****/
 
 /***** THINKSPACE PORTFOLIO PAGE *****/
 
@@ -314,51 +329,4 @@ h3, p, header {
 
 
 /***** WEB DESIGN PORTFOLIO PAGE *****/
-
-#case-study-info {
-  padding: 0px 100px;
-}
-
-#case-study-info h1 {
-  font-size: 50px;
-  padding-top: 130px;
-  text-align: center;
-}
-
-#case-study-info img {
-  margin: 20px 0px;
-  width: 1200px;
-}
-
-#case-study-info h2 {
-  font-size: 28px;
-  text-align: left;
-}
-
-#case-study-info p {
-  font-size: 18px;
-  margin: 8px 0px;
-  padding: 5px;
-  text-align: justify;
-} /***** THIS ONE IS DIFFERENT - CHECK AND COMPARE *****/
-
-#bottom-navigation {
-  height: 150px;
-}
-
-#bottom-navigation nav ul li {
-  display: inline-block;
-  margin-left: 55px;
-  margin-top: 25px;
-}
-
-#bottom-navigation nav ul li a {
-  color: #040f16;
-  font-size: 36px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-#bottom-navigation nav {
-  float: left;
-}
+/***** will be different - bottom navigation is only for PREVIOUS ...or will it? can maybe be handled within html and/or by skipping the element which doesn't matter...think about this... *****/
