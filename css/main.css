@@ -108,6 +108,14 @@ h3, p, header {
   font-family: 'Roboto', sans-serif;
 }
 
+h3 a, p a {
+  text-decoration: none;
+}
+
+h3 a:visited, p a:visited {
+  color:white;
+}
+
 
 #portfolio {
   height: 2550px;
