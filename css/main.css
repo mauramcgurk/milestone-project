@@ -44,7 +44,6 @@ body {
 
 /*****HEADER*****/
 header {
-  /*****height: 30px;*****/
   margin-bottom: 0px;
 }
 
@@ -90,19 +89,14 @@ nav {
 
 #hero h1 {
   color: #040f16;
-  /*****color: #fbfbff;*****/
-  /*****font-family: 'Raleway', sans-serif;*****/
   font-size: 110px;
   width: 850px;
   clear: both;
   line-height: 95px;
-  padding: 0px 0 20px 70px;
+  padding: 0px 0 20px 135px;
   margin-top: -380px;
 }
 
-span {
-  /*****font-size: 100px;*****/
-}
 
 h2 {
   color: #040f16;
@@ -114,9 +108,6 @@ h3, p, header {
   font-family: 'Roboto', sans-serif;
 }
 
-/*****.span-color {
-  color: #fbfbff;
-}*****/
 
 #portfolio {
   height: 2550px;
@@ -316,18 +307,3 @@ h3, p, header {
 #bottom-navigation-right nav {
   float: right;
 }
-
-
-/*****COLLABORATIVE DIVORCE TACOMA PORTFOLIO PAGE : no additional CSS *****/
-
-/***** CULTURE SHOCKS PORTFOLIO PAGE : no additional CSS *****/
-
-/***** THINKSPACE PORTFOLIO PAGE *****/
-
-/***** ADVICE FOR NEWBIES PORTFOLIO PAGE *****/
-
-/***** ART & DESIGN PORTFOLIO PAGE *****/
-
-
-/***** WEB DESIGN PORTFOLIO PAGE *****/
-/***** will be different - bottom navigation is only for PREVIOUS ...or will it? can maybe be handled within html and/or by skipping the element which doesn't matter...think about this... *****/
