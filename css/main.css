@@ -78,6 +78,10 @@ nav {
 
 
 /*****MAIN*****/
+#hero {
+  height: 545px;
+}
+
 #hero img {
   background: url('../img/full-background.png');
   background-size: cover;
@@ -108,17 +112,25 @@ h3, p, header {
   font-family: 'Roboto', sans-serif;
 }
 
-h3 a, p a {
+/***** h3 a, p a {
   text-decoration: none;
 }
 
 h3 a:visited, p a:visited {
   color:white;
+} *****/
+
+#clicking-instructions-portfolio h3 {
+  color: #040f16;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 0 0 0;
+  padding:  inherit;                                                          0px 0 5px 0px
 }
 
 
 #portfolio {
-  height: 2550px;
+  height: 2610px;
 }
 
 .portfolio-boxes-wrapper {
@@ -127,7 +139,7 @@ h3 a:visited, p a:visited {
   width: 1300px;
 }
 
-#portfolio h3 {
+.short-width-left h3 {
   margin: 20px 0 0 0;
   padding: 90px 0 5px 170px;
 }
@@ -141,6 +153,10 @@ h3 a:visited, p a:visited {
   height:300px;
   margin: 25px 0;
   padding-left: 50px;
+}
+
+#portfolio h2 {
+  margin-bottom: 0
 }
 
 #collaborative-divorce {
